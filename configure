@@ -575,7 +575,7 @@ PACKAGE_STRING='h264bitstream 0.1.9'
 PACKAGE_BUGREPORT='aizvorski@gmail.com'
 PACKAGE_URL=''
 
-ac_unique_file="./h264_stream.c"
+ac_unique_file="./h264_stream.cpp"
 # Factoring default headers for most tests.
 ac_includes_default="\
 #include <stdio.h>
