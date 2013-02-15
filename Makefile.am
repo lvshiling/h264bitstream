@@ -1,7 +1,7 @@
 AUTOMAKE_OPTIONS = subdir-objects
 ACLOCAL_AMFLAGS = -I m4
 
-AM_CFLAGS = -I. -Wall -std=c99 $(EXTRA_CFLAGS)
+AM_CFLAGS = -I. -Wall $(EXTRA_CFLAGS)
 AM_LDFLAGS = -lm
 
 bin_PROGRAMS = h264_analyze
